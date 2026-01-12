@@ -1,6 +1,8 @@
 // import Ejercicio1 from "./components/ejercicios/ejercicio1"
 import FormularioUsuario from "./components/FormularioUsuario"
 import Header from "./components/Header"
+import ListaContactos from "./components/ListaContactos"
+import LoginVerificacionBasica from "./components/LoginVerificacionBasica"
 import Saludo from "./components/Saludo"
 import Tarjeta from "./components/Tarjeta"
 
@@ -36,6 +38,8 @@ const App = () => {
           image="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=400"
           />
           <FormularioUsuario />
+          <ListaContactos />
+          <LoginVerificacionBasica />
         </div>
 
         {/* <div className='min-h-screen bg-gray-100 flex items-center justify-center'>
