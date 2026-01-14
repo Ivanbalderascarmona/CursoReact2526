@@ -1,4 +1,5 @@
 // import Ejercicio1 from "./components/ejercicios/ejercicio1"
+import FormularioLogin from "./components/FormularioLogin"
 import FormularioUsuario from "./components/FormularioUsuario"
 import Header from "./components/Header"
 import ListaContactos from "./components/ListaContactos"
@@ -40,6 +41,8 @@ const App = () => {
           <FormularioUsuario />
           <ListaContactos />
           <LoginVerificacionBasica />
+          <FormularioLogin />
+          
         </div>
 
         {/* <div className='min-h-screen bg-gray-100 flex items-center justify-center'>
