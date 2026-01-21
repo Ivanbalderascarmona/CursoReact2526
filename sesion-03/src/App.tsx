@@ -14,10 +14,11 @@ const App = () => {
       <div className='max-w-7xl mx-auto'>
         <Header />
         <main>
+          {/* Por encima del suspense hay que crear otro que controle los errores */}
           <Suspense fallback={<LoadingFallBack message="Cocinando platos para ti... 🍽️" />}>
+            <Buscar platosPromise={platosPromise} setPlatosPromise={setPlatosPromise}/>
             <PlatosList platosPromise={platosPromise} />
           </Suspense>
-          {/* <Buscar platosPromise={platosPromise} setPlatosPromise={setPlatosPromise}/> */}
         </main>
       </div>
     </div>

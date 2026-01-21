@@ -32,6 +32,7 @@ export function useFetch<T>(url:string){
         }
 
         const result = await response.json();
+        setError(null)
         setData(result)
 
       } catch (error : unknown) {

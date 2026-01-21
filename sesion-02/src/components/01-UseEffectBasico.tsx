@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const UseEffectBasico = () => {
 
   // hooks
-  const [isTabActive, setIsTabActive] = useState(true)
+  const [isTabActive] = useState(true)
 
   // efectos
   useEffect(() => {
